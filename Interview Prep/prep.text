@@ -1,0 +1,169 @@
+Tailored Preparation Plan Based on Your Resume:
+Given your resume and the typical TCS Prime interview structure, here’s what you should focus on:
+
+I. Deep Dive into Your Technical Skills & Projects:
+Your resume lists JavaScript, Python, React.js, Node.js, Express.js, FastAPI, various SQL and NoSQL databases, and deployment tools. Expect questions on all of these, especially those used in your projects and internship.
+
+1. Programming Languages (JavaScript & Python):
+* JavaScript (Primary):
+* Core Concepts: Closures, promises (async/await), this keyword, ES6+ features (arrow functions, destructuring, modules), event loop (as seen in the example interview).
+* DOM Manipulation (if not solely relying on React).
+* Be ready for "guess the output" type questions.
+* Resume Link: HackerRank certification in JavaScript, numerous projects.
+* Python (Primary):
+* Core Concepts: Data structures (lists, dictionaries, tuples, sets), list comprehensions, OOPs in Python, decorators, generators.
+* Resume Link: HackerRank certification, FastAPI in GroceryWise project and internship, Django REST Framework (basic).
+* TypeScript (Familiar but used in projects):
+* Benefits over JavaScript, basic types, interfaces, how you've used it in Next.js.
+* Resume Link: GroceryWise, Personal Portfolio.
+
+
+
+
+
+2. Frontend Development (React.js & Next.js):
+* React.js:
+* Hooks (useState, useEffect, useContext primarily – be ready for "Explain React Hooks and their usage" from the example).
+* Props drilling vs. Context API (or other state management).
+* Component lifecycle (even with Hooks, understand the phases).
+* Virtual DOM.
+* Conditional rendering.
+* Be prepared to write simple React code snippets (e.g., "Write React code for using props" from the example).
+* Resume Link: Tech SimPlus Internship, BlogHub, Detectify.
+* Next.js (Familiar, but used in key projects):
+* Server-Side Rendering (SSR) vs. Client-Side Rendering (CSR) vs. Static Site Generation (SSG) – explain the differences and why you chose a particular approach for your projects.
+* Routing (file-system based).
+* API routes in Next.js (if used).
+* Benefits of using Next.js.
+* Resume Link: Tech SimPlus Internship, GroceryWise, Personal Portfolio.
+
+
+
+
+
+3. Backend Development (Node.js/Express.js & FastAPI):
+* Node.js & Express.js:
+* Middleware: Concept and examples of middleware you've used.
+* Routing: Defining routes, route parameters.
+* API creation: Handling GET, POST, PUT, DELETE requests.
+* Error handling strategies.
+* Mention how you built the server for BlogHub  (could be asked like "Write code to create a server in Express.js" from the example).
+* Resume Link: Tech SimPlus Internship, BlogHub.
+* FastAPI:
+* Key features: Asynchronous capabilities (async/await), Pydantic for data validation, automatic API documentation.
+* Dependency Injection.
+* Creating CRUD APIs – be specific about your GroceryWise backend.
+* Resume Link: Tech SimPlus Internship, GroceryWise.
+
+
+
+4. Databases (SQL & NoSQL - Very Important):
+* SQL (Postgres, MySQL, SQLite – HackerRank Cert ):
+* Joins: INNER, LEFT, RIGHT, FULL OUTER. Be ready to explain them conceptually, with examples, and potentially draw Venn diagrams (as in the example).
+* Queries: Writing SELECT (with WHERE, GROUP BY, ORDER BY, aggregate functions), INSERT, UPDATE, DELETE statements (e.g., "Write an SQL query to update attendance," "insert values into a table" from the example).
+* Advanced Queries: Subqueries, finding n-th highest values (e.g., "fetch the 3rd highest salary in a database using two methods" from the example).
+* Concepts: Primary keys, foreign keys, NULL keyword, indexing (basics), ACID properties (basics).
+* Database Models: Relational model is key. Briefly understand hierarchical and network models if asked (as in example).
+* Resume Link: GroceryWise (PostgreSQL), general SQL knowledge.
+* MongoDB (NoSQL):
+* CRUD operations.
+* Differences between SQL and NoSQL; when to choose MongoDB.
+* Basic understanding of its document structure.
+* "Sharding in MongoDB" was asked in the example – understand the concept.
+* Resume Link: Tech SimPlus Internship, BlogHub (MongoDB).
+
+
+
+
+5. Projects – Your Strongest Talking Points:
+* For EACH project (GroceryWise, BlogHub, Detectify, Portfolio ):
+* Objective & Functionality: What problem does it solve? What are the key features?
+* Your Role & Contribution: What specific parts did you build?
+* Tech Stack Rationale: Why did you choose specific technologies (e.g., Next.js + FastAPI for GroceryWise, MERN for BlogHub )?
+* Architecture: Briefly explain the frontend-backend interaction, database schema (if applicable).
+* Key Implementations:
+* CRUD Operations: Be ready to detail how you implemented them (e.g., in GroceryWise  and BlogHub ).
+* User Authentication (JWT): Explain the entire flow for GroceryWise  and BlogHub  (token generation, storage, verification, middleware).
+* API Integration: For Detectify, how did you work with AWS Rekognition API? How did you handle requests and responses?
+* Challenges Faced & Solutions: This shows problem-solving skills.
+* Learnings: What new skills or insights did you gain?
+* Live Demos: Ensure they are working. Be prepared to walk through them.
+* GitHub Repos: Make sure they are clean and well-documented.
+
+
+
+
+
+6. Internship Experience (Tech SimPlus Learning  & Cisco ):
+* Tech SimPlus Learning (Full Stack Intern) :
+* Elaborate on "Built React components, pages, and integrated APIs for CRUD functionality". Give specific examples.
+* Detail the "JWT authentication" implementation.
+* Discuss your experience with "React.js, Next.js, FastAPI, and Node.js" in this professional setting. What was different from personal projects?
+* Cisco Networking Academy (Virtual Internship) :
+* Discuss "networking concepts" you learned and your experience with "Cisco Packet Tracer".
+* Be ready for basic networking questions: OSI model, TCP/IP, HTTP/HTTPS port numbers (as in example), types of networks. Your "Networking Essential Certificate"  will be relevant here.
+
+
+
+7. Deployment & Tools:
+* Deployment (Vercel, Railway ): How do these platforms work? How did you deploy your apps? Any CI/CD aspects?
+* Docker (basic) : Understand what Docker is, its benefits (containerization, consistent environments). If you know basic commands, mention them.
+* Git & GitHub : Version control concepts, common commands (commit, push, pull, branch, merge). "How do you upload a project to GitHub?" was asked in the managerial round example.
+* AI Tools (ChatGPT, Gemini, DeepSeek) : Be prepared to discuss how you use them ethically and effectively as a developer (e.g., for learning, debugging, boilerplate code generation, NOT for direct copying of solutions for core tasks).
+
+
+
+8. Core CS Concepts (General):
+* OOPs: Polymorphism, Inheritance, Encapsulation, Abstraction. Be ready with examples in JavaScript or Python. The example interview asked for "polymorphism and its types with examples."
+* DBMS: Covered under Databases.
+* OS: Basics of processes, threads, memory management. The "event loop" (asked in the example) is relevant here too, especially for a JavaScript developer.
+* WDLC (Web Development Life Cycle): Asked in the example, good to know the stages.
+
+II. Managerial Round Preparation:
+This will likely focus on your projects, problem-solving approach, and teamwork.
+
+Project Deep Dives: Be prepared for extensive cross-questioning on your projects  as mentioned above.
+
+
+
+Technical Choices & Justifications: Why certain technologies? What were the trade-offs?
+Problem-Solving & Practical Skills:
+"How do you validate data in an API?" (From example). Relate to your projects with JWT and CRUD.
+
+How did you debug issues in your projects/internship?
+Internship Learnings: Focus on what you learned about working in a team, deadlines, and professional development at Tech SimPlus.
+Understanding of ML (if it comes up): The example had "What is Machine Learning (ML)?" You used AWS Rekognition, which is an ML service. Understand its purpose even if you didn't build the model.
+III. HR Round Preparation:
+Focus on your personality, communication, and fit for TCS.
+
+"Tell me about yourself": Craft a narrative: Your BSc, MCA, passion for full-stack (mention key skills ), internship highlights, and career aspirations.
+
+
+Strengths: Your technical skills, project portfolio, internship experience, certifications, eagerness to learn. Your CGPA in MCA (8.51)  is good; your BSc (67%)  is lower, so be prepared to show your growth trajectory and how you've excelled in MCA if it comes up.
+
+
+
+
+Weaknesses: Frame them constructively (e.g., "I'm working on improving my depth in advanced Next.js features," or "While I have basic knowledge of Docker, I am planning to explore it more deeply").
+"Why TCS?": Research TCS's work, values, and opportunities in areas like full-stack development, cloud, etc.
+Behavioral Questions:
+Teamwork: "If you are working in a team... two teammates fall sick..." (from the example). Prepare scenarios using the STAR method.
+Handling challenges, pressure, failures.
+Career Goals: Align with growing as a software developer within a reputable company like TCS.
+Flexibility: Be clear about relocation, shifts (if asked).
+Company Knowledge: Basic facts about TCS (CEO, recent projects/news). "TCS’s current technologies" was an HR question in the example.
+Specific Questions to Anticipate (Based on Your Resume + Example):
+Walk me through the architecture of your GroceryWise app. Why did you choose Next.js with FastAPI?
+Explain the JWT authentication flow you implemented in BlogHub  and your internship.
+
+How did you handle state management in your React projects (BlogHub, Detectify )?
+
+You've used both PostgreSQL and MongoDB. Compare them and tell me when you'd choose one over the other, perhaps using your projects as examples.
+What are the core differences between Express.js and FastAPI? Why might you choose one over the other for a new project?
+You mentioned "responsive web applications" in your summary  and have a certification in Responsive Web Design. What are the key principles you follow?
+
+What did you specifically contribute during your internship at Tech SimPlus Learning regarding React components and API integration?
+How did your Cisco Networking internship and certification  help you understand web application infrastructure better?
+
+The example interview asked to "Solve a simple DSA problem: Reverse a string using three methods." Be prepared for similar fundamental DSA questions.
+The example asked "How would you fetch an API? Provide the code." You should be able to do this in JavaScript (using Workspace or axios) and Python (using requests).

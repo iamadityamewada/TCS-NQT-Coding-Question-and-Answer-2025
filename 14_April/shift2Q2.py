@@ -43,5 +43,24 @@ sd = ((sum/n)**0.5)
 
 print(f"{sd:.2f}")
 
+# import math
+
+# # Read number of elements
+# n = int(input("Enter number of elements: "))
+
+# # Read the elements as a list of integers
+# arr = list(map(int, input("Enter the elements: ").split()))
+
+# # Calculate the mean
+# mean = sum(arr) / n
+
+# # Calculate the squared differences from the mean
+# squared_diff = [(x - mean) ** 2 for x in arr]
+
+# # Calculate standard deviation
+# std_dev = math.sqrt(sum(squared_diff) / n)
+
+# # Print rounded to 2 decimal places
+# print(f"{std_dev:.2f}")
 
 
